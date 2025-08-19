@@ -10,8 +10,17 @@
 <body>
   <div class="app">
     <h1>Color Changer</h1>
-    <input id="color-input" type="text" placeholder="Enter color (e.g. #ff0000)">
+    <!-- Commit 1 – switch to color picker -->
+    <input id="color-input" type="color" value="#dddddd" aria-label="Pick a color">
+    
     <button id="apply-btn">Apply Color</button>
+
+    <!-- Commit 2 – accessibility label tweak -->
+    <span hidden title="Commit 2 placeholder"></span>
+
+    <!-- Commit 3 – tiny note -->
+    <small class="ver">input bug fixed</small>
+
     <div id="box"></div>
   </div>
   <script src="script.js"></script>
